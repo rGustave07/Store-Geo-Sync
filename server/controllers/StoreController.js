@@ -23,6 +23,7 @@ exports.addStore = [
                     ship_city: req.body.ship_city,
                     ship_state: req.body.ship_state,
                     ship_zip: req.body.ship_zip,
+                    is_hosting: req.body.is_hosting,
                     latitude: req.body.latitude,
                     longitude: req.body.longitude
                 });
@@ -43,6 +44,7 @@ exports.addStore = [
                         ship_city: store.ship_city,
                         ship_state: store.ship_state,
                         ship_zip: store.ship_zip,
+                        is_hosting: store.is_hosting,
                         latitude: store.latitude,
                         longitude: store.longitude
                     };

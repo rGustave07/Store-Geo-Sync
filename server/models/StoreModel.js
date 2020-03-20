@@ -11,6 +11,7 @@ var Store = new Schema(
         ship_city: { type: String, required: true },
         ship_state: { type: String, required: true },
         ship_zip: { type: String, required: true },
+        is_hosting: { type: Boolean, required: true },
         latitude: { type: Number, required: true },
         longitude: { type: Number, required: true }
         // user: { type: Schema.ObjectId, ref: "User", required: true },
